@@ -1,0 +1,68 @@
+import { Category } from '@/types';
+
+export const categories: Category[] = [
+  {
+    id: 'cat-1',
+    name: 'Furniture',
+    slug: 'furniture',
+    description: 'From mid-century modern credenzas to antique farmhouse tables, find statement pieces that anchor any room.',
+    image: 'https://placehold.co/800x600/8B7355/FDF8F0?text=Furniture',
+    productCount: 124,
+  },
+  {
+    id: 'cat-2',
+    name: 'Lighting',
+    slug: 'lighting',
+    description: 'Illuminate your space with vintage pendants, sculptural table lamps, and artisan sconces.',
+    image: 'https://placehold.co/800x600/D4A853/FDF8F0?text=Lighting',
+    productCount: 87,
+  },
+  {
+    id: 'cat-3',
+    name: 'Art',
+    slug: 'art',
+    description: 'Original paintings, prints, and sculptures from emerging and established artists across eras.',
+    image: 'https://placehold.co/800x600/C67C5B/FDF8F0?text=Art',
+    productCount: 156,
+  },
+  {
+    id: 'cat-4',
+    name: 'Rugs',
+    slug: 'rugs',
+    description: 'Hand-knotted Persian carpets, kilims, and modern vintage rugs to ground your space.',
+    image: 'https://placehold.co/800x600/A0522D/FDF8F0?text=Rugs',
+    productCount: 63,
+  },
+  {
+    id: 'cat-5',
+    name: 'Tableware',
+    slug: 'tableware',
+    description: 'Curated ceramics, glassware, and serveware to elevate your table setting.',
+    image: 'https://placehold.co/800x600/8B9E7E/FDF8F0?text=Tableware',
+    productCount: 98,
+  },
+  {
+    id: 'cat-6',
+    name: 'Decor',
+    slug: 'decor',
+    description: 'Decorative objects, vases, candleholders, and curios that add character to any shelf.',
+    image: 'https://placehold.co/800x600/B8860B/FDF8F0?text=Decor',
+    productCount: 142,
+  },
+  {
+    id: 'cat-7',
+    name: 'Textiles',
+    slug: 'textiles',
+    description: 'Vintage quilts, throw pillows, tapestries, and linens with timeless charm.',
+    image: 'https://placehold.co/800x600/9E7E8B/FDF8F0?text=Textiles',
+    productCount: 71,
+  },
+  {
+    id: 'cat-8',
+    name: 'Garden',
+    slug: 'garden',
+    description: 'Weathered planters, wrought iron furniture, and vintage garden accents for outdoor living.',
+    image: 'https://placehold.co/800x600/6B8E23/FDF8F0?text=Garden',
+    productCount: 45,
+  },
+];
